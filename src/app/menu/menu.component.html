@@ -1,0 +1,13 @@
+<div class="menu-wrapper">
+  <ul>
+    <li
+      (click)="closeMenu()"
+      class="menu-item"
+      *ngFor="let item of menuItems"
+      [routerLink]="item.route"
+      routerLinkActive="router-link-active"
+    >
+      {{ item.label }}
+    </li>
+  </ul>
+</div>
