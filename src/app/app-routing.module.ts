@@ -15,6 +15,7 @@ const routes: Routes = [
       { path: 'gallery', component: GalleryComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'about', component: AboutComponent },
+      { path: '**', redirectTo: 'home', pathMatch: 'full' },
     ],
   },
   { path: '**', component: LayoutComponent },

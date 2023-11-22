@@ -1,16 +1,14 @@
 .gallery {
   width: 100%;
-  height: auto;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
   overflow: auto;
   height: calc(100vh - 6rem);
   justify-content: space-evenly;
 
   img {
-    max-width: 22rem;
-    max-height: 22rem;
-    flex-basis: 30%;
+    max-height: 20rem;
+    flex-basis: auto;
   }
 }
